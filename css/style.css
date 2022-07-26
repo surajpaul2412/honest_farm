@@ -32,7 +32,8 @@ body {
   line-height: 28px;
   margin: 0;
   text-align: left;
-  background-color: #fff;
+  background-image: url('../img/bg.png');
+  background-size: 100%;
   font-weight: 400;
   color: #6a7695;
   overflow-x: hidden;
@@ -264,7 +265,7 @@ Banner Area
 
 .section-heading .subheading {
   font-size: 100px;
-  opacity: .15;
+  opacity: .25;
   position: absolute;
   top: -17px;
   left: 0px;
