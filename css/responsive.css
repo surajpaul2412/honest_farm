@@ -125,4 +125,13 @@
     text-align: center;
   }
   .footer-widget .widget-title:before{left: 44% !important;}
+  .deal-inner {
+    background-image: url('../img/bg-certify.png');
+    background-repeat: no-repeat;background-position: center;
+    background-size: 800%;
+  }
+  .footer-about p{padding-right: 0px;}
+  .about{padding: 0px 0px 50px 0px;}
+  .navbar{padding: 8px 10px !important;}
+  .feature-item .feature-img img{max-height: inherit;width: 30%;}
 }

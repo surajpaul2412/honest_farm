@@ -64,7 +64,7 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   margin-bottom: .5rem;
-  color: #263b5e;
+  color: #345dae;
 }
 
 .h1,
@@ -992,7 +992,7 @@ CTA-2
   font-size: 75px;
   margin-bottom: 15px;
 }
-
+.text-success{color: #408858 !important;}
 .deal-info.section-heading p {
   margin-bottom: 30px;
   font-size: 17px;
@@ -1000,8 +1000,10 @@ CTA-2
 }
 
 .deal-inner {
-  background: #ECF1DF;
-  padding: 60px;
+  background-image: url('../img/bg-certify.png');
+  background-repeat: no-repeat;background-position: center;
+  background-size: 100%;
+  padding: 40px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.02);
   border-radius: 5px;
   margin-top: -90px;
@@ -2039,3 +2041,4 @@ Single Blog Page
   margin-bottom: 10px;
 }
 .bg-black{background: #000;}
+.border-bottom-line{border-bottom: 3px solid #18864a;}
