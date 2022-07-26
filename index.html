@@ -640,9 +640,9 @@
           });
         });
 
-        // $(window).on('load', function() {
-        //     $('#video').modal('show');
-        // });
+        $(window).on('load', function() {
+            $('#video').modal('show');
+        });
 
         $("#video").on('hidden.bs.modal', function (e) {
             $("#video iframe").attr("src", $("#video iframe").attr("src"));
