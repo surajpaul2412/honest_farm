@@ -32,7 +32,6 @@
                         <a class="navbar-brand" href="index.html" style="width: 180px;">
                             <img src="img/logo.png" alt="logo" width="100%">
                         </a>
-
                         <!-- Toggler -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="fa fa-bars"></span>
@@ -40,10 +39,18 @@
                         <!-- Collapse -->
                         <div class="collapse navbar-collapse" id="navbarMenu">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item ">
-                                    <a href="index.html#about" class="nav-link js-scroll-trigger">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbar2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         About Us
                                     </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbar2">
+                                         <a class="dropdown-item" href="index.html#about">
+                                            Honest Farms
+                                        </a>
+                                        <a class="dropdown-item" target="_blank" href="https://agrevolution.in/">
+                                            DeHaat
+                                        </a>
+                                    </div>
                                 </li>
                                 <li class="nav-item ">
                                     <a href="index.html#usp" class="nav-link js-scroll-trigger">
@@ -59,17 +66,12 @@
                                             Rice
                                         </a>
                                         <a class="dropdown-item " href="index.html#product">
-                                            Wheat Flour
+                                            Pulses
                                         </a>
                                         <a class="dropdown-item " href="index.html#product">
-                                            Pulses
-                                        </a> 
+                                            Peanuts
+                                        </a>
                                     </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a href="https://agrevolution.in/" target="_blank" class="nav-link">
-                                        About DeHaat
-                                    </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="index.html#certificate" class="nav-link">
@@ -78,7 +80,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a href="https://agrevolution.in/contact-us" target="_blank" class="nav-link">
-                                        Contact
+                                        Contact Us
                                     </a>
                                 </li>
                             </ul>
@@ -103,27 +105,34 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 pt-5">
                     <div class="about-img-discard">
-                        <img src="img/about.png" alt="about-honest-farm" class="img-fluid">
+                        <img src="img/about.png" alt="about-honest-farm" width="95%" class="d-block mx-auto">
                     </div>
                  </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="section-heading text-left about-info">
                         <h4 class="subheading">About Us</h4>
                         <span class="subtitle">About Us</span>
-                        <h2>Healthy,tasty & <span>Fresh Organic Food</span></h2>
-                        <p class="text-black">
+                        <h2>Every morsel full<span>of goodness</span></h2>
+                        <p class="text-black pt-4">
                             Welcome to the world of <span class="font-weight-bold">DeHaat Honest Farms</span>.<br/><br/>
-                            Every Honest Farms product is a result of direct collaboration between over a million farmers from all over the country, and DeHaat - India’s largest full-stack AgriTech platform, that came into existence for farmers.
+                            Every Honest Farms product is a result of direct collaboration between over a million farmers from all over the country, and DeHaat - India’s largest full-stack AgriTech platform, that came into existence for farmers. <br><br>
+                            At DeHaat, we understand the struggles of the Indian farmer. Not having easy access to basic infrastructural needs, struggling for accurate information on weather and technology, and not getting the right prices for their produce.<br><br>
+                            We believe that happy farmers means a happy produce. And so, we are on a mission to revolutionize Indian farming by offering:
+
                         </p>
-                        <ul>
-                            <li><i class="fa-solid fa-check"></i> High-quality input products</li>
-                            <li><i class="fa-solid fa-check"></i> customised crop</li>
-                            <li><i class="fa-solid fa-check"></i> mechanized farming</li>
-                            <li><i class="fa-solid fa-check"></i> Direct market</li>
-                        </ul>
+                        <!-- <ol class="text-dark font-weight-bold">
+                            <li><i class="fa-solid fa-check pr-3"></i> High-quality input products such as fertilizers, crop nutrients, seeds etc.</li>
+                            <li><i class="fa-solid fa-check pr-3"></i> Provide access to mechanized farming via tools like drones and harvesters.</li>
+                            <li><i class="fa-solid fa-check pr-3"></i> Services like customised crop &amp; weather based advisory, soil analytics, crop assessment, financing and crop insurance.</li>
+                            <li><i class="fa-solid fa-check pr-3"></i> Direct market linkage at a price favourable to farmers.</li>
+                        </ol> -->
 
                         <a href="#" class="btn btn-main">read More<i class="fa-solid fa-angle-right"></i></a>
                     </div>
+                </div>
+                <div class="col-lg-12 col-md-12 px-4">
+                    This means that every pack of Honest Farms products comes from crops grown in the best conditions with the highest quality of raw materials. Our promise is to give you and your family nothing but products that are safe and of assured quality. That’s why we keep a check at every step of the way, right from procurement to processing. Once the produce is harvested, we carry out more than 230 quality checks to make sure every Honest Farms product is pesticide-free and of the highest quality.<br><br>
+                    We are proud to bring you honest produce from Honest Farms. Click to witness the revolution we have started.
                 </div>
             </div>
         </div>
@@ -298,7 +307,7 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="col-12 col-md-6 mt-3">
-                                      <input type="number" class="form-control" placeholder="Whatsapp Number">
+                                      <input type="number" class="form-control" placeholder="Contact Number">
                                     </div>
                                     <div class="col-12 col-md-6 mt-3">
                                       <input type="text" class="form-control" placeholder="Batch No">
@@ -380,13 +389,6 @@
                                 <!-- <img src="http://themeturn.com/tf-db/orgenik-demo/orgenik/assets/images/store/p-1.png" alt="" class="img-fluid"> -->
                             </div>
                             <div class="product-text">
-                                <div class="rating">
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                </div>
                                 <h5>Organic <span>Tomatoo</span></h5>
                                 <div class="price-info">
                                     <ul>
@@ -404,13 +406,6 @@
                                 <!-- <img src="http://themeturn.com/tf-db/orgenik-demo/orgenik/assets/images/store/p-2.png" alt="" class="img-fluid"> -->
                             </div>
                             <div class="product-text">
-                                <div class="rating">
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                </div>
                                 <h5>Natural <span>Broccoli</span></h5>
                                 <div class="price-info">
                                     <ul>
@@ -428,13 +423,6 @@
                                 <!-- <img src="http://themeturn.com/tf-db/orgenik-demo/orgenik/assets/images/store/p-5.png" alt="" class="img-fluid"> -->
                             </div>
                             <div class="product-text">
-                                <div class="rating">
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                </div>
                                 <h5>Seasoned <span>fruits</span></h5>
                                 <div class="price-info">
                                     <ul>
@@ -452,13 +440,6 @@
                                 <!-- <img src="http://themeturn.com/tf-db/orgenik-demo/orgenik/assets/images/store/p-1.png" alt="" class="img-fluid"> -->
                             </div>
                             <div class="product-text">
-                                <div class="rating">
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                </div>
                                 <h5>Organic <span>Tomatoo</span></h5>
                                 <div class="price-info">
                                     <ul>
@@ -476,13 +457,6 @@
                                 <!-- <img src="http://themeturn.com/tf-db/orgenik-demo/orgenik/assets/images/store/p-2.png" alt="" class="img-fluid"> -->
                             </div>
                             <div class="product-text">
-                                <div class="rating">
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                    <a href=""><i class="far fa-star"></i></a>
-                                </div>
                                 <h5>Natural <span>Broccoli</span></h5>
                                 <div class="price-info">
                                     <ul>
@@ -507,29 +481,29 @@
         				<div class="footer-widget footer-about mb-5 mb-lg-0">
         					<img src="img/logo.png" alt="logo-footer" class="img-fluid" width="200px">
         					<p class="mt-3">
-                                DeHaat RO | Bengaluru, highway |, Commercial block 02 | Safal market, Whitefield - Hoskote Rd, Kadugodi, Bengaluru, 560067
+                                Every Honest Farms product is a result of direct collaboration between over a million farmers from all over the country, and DeHaat.
                             </p>
         				</div>
         			</div>
         			<div class="col-lg-5 col-sm-6 col-md-6">
         				<div class="footer-widget footer-about mb-5 mb-lg-0">
-        					<h5 class="widget-title">Contact Info</h5>
+        					<h5 class="widget-title">Corporate Office</h5>
         					<ul class="list-unstyled">
-        						<li><p>DeHaat RO | Bengaluru, highway |, Commercial block 02 | Safal market, Whitefield - Hoskote Rd, Kadugodi, Bengaluru, 560067</p></li>
+        						<li><p>901, 9th Floor,BPTP PARK Centra, Sector 30, Gurugram, Haryana 122021</p></li>
         					</ul>
                             <ul class="list-inline footer-socials">
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"> <a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.facebook.com/DeHaatTM/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"> <a href="https://www.instagram.com/dehaat/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/company/dehaat/"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/DeHaatTM?s=09"><i class="fab fa-twitter"></i></a></li>
                             </ul>
         				</div>
         			</div>
                     <div class="col-lg-3 col-sm-6 col-md-6">
                         <div class="footer-widget footer-contact mb-5 mb-lg-0">
-                            <h5 class="widget-title">Corporate Office</h5>
+                            <h5 class="widget-title">Contact Info</h5>
                             <ul class="list-unstyled">
-                                <li> <i class="fa fa-map-marker"></i>504, Star Tower, Block A, Sector 30, Gurugram, Haryana 122011</li>
+                                <!-- <li> <i class="fa fa-map-marker"></i>901, 9th Floor,BPTP PARK Centra, Sector 30, Gurugram, Haryana 122021</li> -->
                                 <li> <i class="fa fa-envelope"></i>care@agrevolution.in</li>
                                 <li><i class="fa fa-phone"></i>(011)-4118-3123</li>
                             </ul>
@@ -640,9 +614,9 @@
           });
         });
 
-        $(window).on('load', function() {
-            $('#video').modal('show');
-        });
+        // $(window).on('load', function() {
+        //     $('#video').modal('show');
+        // });
 
         $("#video").on('hidden.bs.modal', function (e) {
             $("#video iframe").attr("src", $("#video iframe").attr("src"));
