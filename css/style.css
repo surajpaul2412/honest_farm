@@ -820,11 +820,11 @@ Products section
 .product {
   padding-bottom: 70px;
 }
-
+.pointer {cursor: pointer;}
 .product-item {
   margin-bottom: 30px;
   text-align: center;
-  padding: 40px 35px 35px 35px;
+  padding: 0px 20px 25px 20px;
   border: 2px solid #eef2fb;
   border-radius: 4px;
   position: relative;
