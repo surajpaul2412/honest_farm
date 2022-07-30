@@ -616,7 +616,6 @@ Services
   background: #fff;
   padding: 35px 35px 0px 35px;
 }
-
 .service-item h4 {
   transition: 0.5s;
 }
@@ -859,6 +858,7 @@ Products section
 }
 
 .product-item .product-text h5 {
+  margin-top: 25px;
   margin-bottom: 15px;
   font-weight: 500;
   font-size: 20px;
@@ -2047,7 +2047,7 @@ Single Blog Page
 .container1 {
   position: relative;
   width: 230px;
-  height: 230px;
+  height: 310px;
 }
 .overlay1 {
   position: absolute;
@@ -2105,4 +2105,40 @@ Single Blog Page
 }
 .modal-fullscreen-xl .modal-body {
   overflow-y: auto;
+}
+.service-item > a > img{transition: 0.5s;}
+.service-item > a > img:hover {
+  filter: brightness(80%);
+}
+.usps{transition: 0.5s;}
+.usps:hover{
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+}
+
+/*Thumbnail carousel*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top:20px;
+}
+#custCarousel .carousel-indicators > li {
+    width:100px;
+}
+#custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1;
+}
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+.carousel-item img{
+    width:50%;
 }
