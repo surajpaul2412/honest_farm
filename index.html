@@ -81,7 +81,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a href="index.html#certificate" class="nav-link" style="margin-top: -8px;">
-                                        <button class="btn btn-main py-2"><span class="">Get Your </span> Pesticide Free Certificate</button>
+                                        <button class="btn btn-main py-2 media-center"><span class="media-d-none">Get Your </span> Pesticide Free Certificate</button>
                                     </a>
                                 </li>
                             </ul>
@@ -164,23 +164,21 @@
                 </div>
             </div>
             <div class="d-block d-md-none">
-                <div class="container">
-                    <div class="slick-slider-resp container">
-                        <a href="" data-toggle="modal" data-target="#video">
-                            <div class="element" align="center">
-                                <div class="img-wrapper">
-                                    <img class="inner-img" src="img/thumbnail.png" width="100%" />
-                                </div>
+                <div class="slick-slider-resp container">
+                    <a href="" data-toggle="modal" data-target="#video">
+                        <div class="element" align="center">
+                            <div class="img-wrapper">
+                                <img class="inner-img" src="img/thumbnail.png" width="100%" />
                             </div>
-                        </a>
-                        <a href="" data-toggle="modal" data-target="#video">
-                            <div class="element" align="center">
-                                <div class="img-wrapper">
-                                    <img class="inner-img" src="img/thumbnail.png" width="100%" />
-                                </div>
+                        </div>
+                    </a>
+                    <a href="" data-toggle="modal" data-target="#video">
+                        <div class="element" align="center">
+                            <div class="img-wrapper">
+                                <img class="inner-img" src="img/thumbnail.png" width="100%" />
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -572,28 +570,31 @@
                         <div class="col-lg-6 py-5">
                             <div class="deal-info section-heading">
                                 <h3 class="text-capitalize">‘Get your pesticide free guarantee certificate’</h3>
-                                <form action="#" method="POST">
+                                <form action='https://forms.zohopublic.in/DeHaat/form/HonestFarmPesticideCertificate/formperma/s0aK8FVXb0Kd8E6M-KE8u7Zg3CtEER5rISagIEpX9dA/htmlRecords/submit' name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' accept-charset='UTF-8' enctype='multipart/form-data' id='form'>
+                                    <input type="hidden" name="zf_referrer_name" value="">
+                                    <input type="hidden" name="zf_redirect_url" value="">
+                                    <input type="hidden" name="zc_gad" value="">
                                     <div class="form-row">
                                         <div class="col-12 col-md-4 mt-3">
-                                          <input type="text" class="form-control" placeholder="First name">
+                                          <input type="text" maxlength="255" name="Name_First" fieldType=7 class="form-control" placeholder="First name" required />
                                         </div>
                                         <div class="col-12 col-md-4 mt-3">
-                                          <input type="text" class="form-control" placeholder="Last name">
+                                          <input type="text" maxlength="255" name="Name_Last" fieldType=7 class="form-control" placeholder="Last name" required />
                                         </div>
                                         <div class="col-12 col-md-4 mt-3">
-                                          <input type="email" class="form-control" placeholder="Email">
+                                          <input fieldType=9 type="email" name="Email" class="form-control" checktype="c5" placeholder="Email" required />
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="col-12 col-md-6 mt-3">
-                                          <input type="number" class="form-control" placeholder="Contact Number">
+                                            <input type="text" class="form-control" placeholder="Contact Number" compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="20" checktype="c7" value="" phoneFormat="1" isCountryCodeEnabled=false fieldType="11" id="international_PhoneNumber_countrycode" valType="number" phoneFormatType="2" required />
                                         </div>
                                         <div class="col-12 col-md-6 mt-3">
-                                          <input type="text" class="form-control" placeholder="Batch No">
+                                          <input type="text" class="form-control" name="SingleLine" placeholder="Batch No" required />
                                         </div>
                                     </div>
+                                    <button type="submit" class="btn btn-main2 mt-3 px-5">Submit</button>
                                 </form>
-                                <a href="#" class="btn btn-main2 mt-3 px-5">Submit</a>
                             </div>
                         </div>
                     </div>
@@ -668,8 +669,8 @@
 
     <!-- Modal -->
     <div class="modal" id="video" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-xl border-none" style="border-radius: 0px;" role="document">
-        <div class="modal-content bg-white p-0" style="border: 4px solid #18864a;">
+      <div class="modal-dialog modal-dialog-centered modal-lg border-none" style="border-radius: 0px;" role="document">
+        <div class="modal-content bg-white p-0">
 
           <div class="modal-header border-none pb-0">
             <h4 class="heading text-black text-capitalize font-weight-600 ml-auto pt-1">Welcome to the Honest Farm !</h4>
@@ -678,14 +679,11 @@
             </button>
           </div>
 
-          <div class="modal-body">
+          <div class="modal-body p-0">
             <div class="row">
                 <div class="col-md-12 col-12">
-                    <div class="card" style="background: #1f273a;">
-                        <div class="row p-5 media-px-1">
-                            <!-- <div class="col-12">
-                                <h1 class="heading text-white text-capitalize py-5" align="center">We would love to hear from you!</h1>
-                            </div> -->
+                    <div class="card">
+                        <div class="row media-px-1">
                             <div class="col-md-12 col-12">
                                 <!-- video -->
                                 <iframe id="youtube_player" class="yt_player_iframe" width="100%" height="400" src="https://www.youtube.com/embed/-87zDwbwwCQ" title="DeHaat: Transforming the way India Farms!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -695,10 +693,6 @@
                 </div>
             </div>
           </div>
-          <!-- <div class="modal-footer border-none justify-content-center">
-            <button type="button" class="btn btn-secondary rounded-pill" data-dismiss="modal">Donate !</button>
-            <button type="button" class="btn btn-primary rounded-pill">membership</button>
-          </div> -->
         </div>
       </div>
     </div>
@@ -719,55 +713,15 @@
                     <div class="container">
                       <div class="row">
                         <div class="col-md-12">
-                          <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
-                            <!-- slides -->
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.png" class="d-flex mx-auto" alt="">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.png" class="d-flex mx-auto" alt="">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.png" class="d-flex mx-auto" alt="">
-                              </div>
-                            </div>
-
-                            <!-- Left right -->
-                            <a class="carousel-control-prev" href="#custCarousel" data-slide="prev">
-                              <span class="carousel-control-prev-icon"></span>
-                            </a>
-                            <a class="carousel-control-next" href="#custCarousel" data-slide="next">
-                              <span class="carousel-control-next-icon"></span>
-                            </a>
-
-                            <!-- Thumbnails -->
-                            <ol class="carousel-indicators list-inline">
-                              <li class="list-inline-item active">
-                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel">
-                                  <img src="img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.png" class="img-fluid">
-                                </a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel">
-                                  <img src="img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.png" class="img-fluid">
-                                </a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel">
-                                  <img src="img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.png"  class="img-fluid">
-                                </a>
-                              </li>
-                             </ol>
-                          </div>
+                          <img src="img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.png" class="d-flex mx-auto" width="70%" alt="">
                         </div>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-7 col-12 mt-5 px-0">
                     <div>
-                        <h1 class="pt-4" align="left">Rozana Basmati Rice</h1>
-                        <p class="pt-4">
+                        <h1 class="media-font-25" align="left">Rozana Basmati Rice</h1>
+                        <p class="">
                             Rozana is above medium length product. Our Basmati Rice is unpolished, with no residue, and guaranteed pesticide-free. What’s more it is even traceable to source. This one comes to you from Karnal, Haryana.<br><br> It is specially processed for daily cooking across a multitude of regular dishes, a perfect fit for every day consumption. Be sure to get your Basmati Rice from Dehaat Honest Farms.<br><br> We make sure that you get honest food from crops that are grown in the best conditions with the highest quality of raw materials. We carry out more that 230 quality checks to make sure the food stays pesticide-free, and control the quality at every step right from procurement to processing.<br><br><span class="font-weight-bold">Available in 1 kg and 5 kg packs.</span>
                         </p>
                     </div>
@@ -843,9 +797,9 @@
           });
         });
 
-        $(window).on('load', function() {
-            $('#video').modal('show');
-        });
+        // $(window).on('load', function() {
+        //     $('#video').modal('show');
+        // });
 
         $("#video").on('hidden.bs.modal', function (e) {
             $("#video iframe").attr("src", $("#video iframe").attr("src"));

@@ -139,5 +139,11 @@
   .footer-widget .widget-title {margin-bottom: 5px;}
   .section-padding{padding: 20px 0px !important;}
   .read-more-less{margin: auto !important;}
-  .parent{height: 282px !important;}
+  .parent{height: 275px !important;}
+  .modal-fullscreen-xl {
+    padding: 15px !important;
+  }
+  .media-font-25{font-size: 25px;}
+  .media-d-none{display: none;}
+  .media-center{display: block;margin: 0 auto;}
 }
