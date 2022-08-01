@@ -137,4 +137,7 @@
   .footer-btm{padding: 0px 0px 0px;border-top: 1px solid #eee;}
   .footer-top {padding: 45px 0px 0px;}
   .footer-widget .widget-title {margin-bottom: 5px;}
+  .section-padding{padding: 20px 0px !important;}
+  .read-more-less{margin: auto !important;}
+  .parent{height: 282px !important;}
 }
