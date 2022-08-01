@@ -2114,7 +2114,8 @@ Single Blog Page
 .usps:hover{
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
-  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  /*box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);*/
 }
 
 /*Thumbnail carousel*/
@@ -2141,4 +2142,19 @@ Single Blog Page
 }
 .carousel-item img{
     width:50%;
+}
+#usp{background-image: url('../img/background.png');background-size: 100%;}
+.img-wrapper {  
+  width: 100%;
+  overflow: hidden; 
+}
+.inner-img {
+  transition: 0.3s;
+}
+.inner-img:hover {
+  transform: scale(1.1);
+}
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
 }
