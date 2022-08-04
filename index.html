@@ -79,7 +79,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="https://agrevolution.in/contact-us" target="_blank" class="nav-link">
+                                    <a href="" data-toggle="modal" data-target="#contact" class="nav-link">
                                         Contact Us
                                     </a>
                                 </li>
@@ -450,7 +450,7 @@
         <div class="modal-content bg-white p-0">
 
           <div class="modal-header border-none pb-0">
-            <h4 class="heading text-black text-capitalize font-weight-600 ml-auto pt-1">Welcome to the Honest Farm !</h4>
+            <h4 class="heading text-black text-capitalize font-weight-600 mr-auto pt-1">Welcome to the Honest Farm !</h4>
             <button type="button" class="close pub-close" id="close-glassAnimals" data-dismiss="modal" aria-label="Close">
                 <img src="img/close button.png" style="width: 35px;">
             </button>
@@ -530,6 +530,64 @@
                         <p class="">
                             Rozana is above medium length product. Our Basmati Rice is unpolished, with no residue, and guaranteed pesticide-free. What’s more it is even traceable to source. This one comes to you from Karnal, Haryana.<br><br> It is specially processed for daily cooking across a multitude of regular dishes, a perfect fit for every day consumption. Be sure to get your Basmati Rice from Dehaat Honest Farms.<br><br> We make sure that you get honest food from crops that are grown in the best conditions with the highest quality of raw materials. We carry out more that 230 quality checks to make sure the food stays pesticide-free, and control the quality at every step right from procurement to processing.<br><br><span class="font-weight-bold">Available in 1 kg and 5 kg packs.</span>
                         </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact us modal -->
+    <div class="modal" id="contact" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg border-none" style="border-radius: 0px;" role="document">
+        <div class="modal-content bg-white p-0">
+
+          <div class="modal-header border-none pb-0">
+            <h4 class="heading text-black text-capitalize font-weight-600 mr-auto pt-1">Contact Us !</h4>
+            <button type="button" class="close pub-close" id="close-glassAnimals" data-dismiss="modal" aria-label="Close">
+                <img src="img/close button.png" style="width: 35px;">
+            </button>
+          </div>
+
+          <div class="modal-body p-0">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <div class="card">
+                        <div class="row media-px-1">
+                            <div class="col-md-5 col-12">
+                                <div class="bg-success py-5 text-white px-4">
+                                    901, 9th Floor,BPTP PARK Centra, Sector 30, Gurugram, Haryana 122021<br><br>
+                                    <div class="footer-widget footer-contact">
+                                        <ul class="list-unstyled">
+                                            <li><a href="mailto:care@agrevolution.in" class="text-white"><i class="fa fa-envelope text-white"></i>care@agrevolution.in</a></li>
+                                            <li><a href="tel:0114118-3123" class="text-white"><i class="fa fa-phone text-white"></i>(011)-4118-3123</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-12">
+                                <form class="pr-4" action="" method="">
+                                    <div class="form-row">
+                                        <div class="col-12 col-md-6 mt-3">
+                                          <input type="text" maxlength="255" name="Name_First" fieldType=7 class="form-control" placeholder="First name" required />
+                                        </div>
+                                        <div class="col-12 col-md-6 mt-3">
+                                          <input fieldType=9 type="email" name="Email" class="form-control" checktype="c5" placeholder="Email" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-12 col-md-12 mt-3">
+                                            <input type="text" class="form-control" placeholder="Contact Number" compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="20" checktype="c7" value="" phoneFormat="1" isCountryCodeEnabled=false fieldType="11" id="international_PhoneNumber_countrycode" valType="number" phoneFormatType="2" required />
+                                        </div>
+                                        <div class="col-12 col-md-12 mt-3">
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for Us *" rows="2" required data-error="Please,leave us a message."></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-main2 d-block mt-3 py-2 mx-auto">Submit</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -627,8 +685,6 @@
                 $('#video').modal('show');
             });
         }
-
-
 
         $(function () {
           $('[data-toggle="tooltip"]').tooltip()
