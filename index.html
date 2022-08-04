@@ -7,7 +7,8 @@
     <!-- Mobile Specific Meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bootstrap.min css -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
     <!-- Iconfont Css -->
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/themify-icons.css">
@@ -22,6 +23,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style type="text/css">
+        .border-none{border: none !important;background: transparent;padding-top: 8px;}
+    </style>
 </head>
 
 <body id="top-header">
@@ -240,7 +244,7 @@
 
     <!-- Our Products -->
     <section class="product section-padding" id="product">
-        <div class="container">
+        <div class="no-container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-heading">
@@ -249,8 +253,8 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="slick-slider container">
+            <div class="no-container">
+                <div class="slick-slider">
                     <div class="element">
                         <div class="wrapper">
                             <div class="parent" onclick="">
@@ -357,8 +361,13 @@
                                         <div class="col-12 col-md-6 mt-3">
                                             <input type="text" class="form-control" placeholder="Contact Number" compname="PhoneNumber" name="PhoneNumber_countrycode" maxlength="20" checktype="c7" value="" phoneFormat="1" isCountryCodeEnabled=false fieldType="11" id="international_PhoneNumber_countrycode" valType="number" phoneFormatType="2" required />
                                         </div>
-                                        <div class="col-12 col-md-6 mt-3">
+                                        <div class="col-11 col-md-5 mt-3">
                                           <input type="text" class="form-control" name="SingleLine" placeholder="Batch No" required />
+                                        </div>
+                                        <div class="col-1 col-md-1 mt-3">
+                                            <button type="button" class="shadow-none border-none" data-toggle="tooltip" data-html="true" title="Batch no.<br><img src=img/tooltip.jpeg width='150px'>">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </button>
                                         </div>
                                     </div>
                                     <button type="submit" class="btn btn-main2 mt-3 px-5">Submit</button>
@@ -532,7 +541,8 @@
     <!-- JQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap 4.3 -->
-    <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/bootstrap.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.js"></script>
     <!-- Counterup -->
     <script src="js/waypoint.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
@@ -547,7 +557,7 @@
             lazyLoad: 'onDemand',
             centerMode: true,
             infinite: true,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             dots: false,
             autoplay: true,
@@ -607,16 +617,22 @@
         })
 
         // Thankyou modal trigger
-        var postUrl = window.location.href;
-        var pathArray = postUrl.split("#");
+        // var postUrl = window.location.href;
+        // var pathArray = postUrl.split("#");
         
-        if (pathArray[1] == "thankyou") {
-            $('#thankyou').modal('show');
-        } else {
-            $(window).on('load', function() {
-                $('#video').modal('show');
-            });
-        }
+        // if (pathArray[1] == "thankyou") {
+        //     $('#thankyou').modal('show');
+        // } else {
+        //     $(window).on('load', function() {
+        //         $('#video').modal('show');
+        //     });
+        // }
+
+
+
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
     </script>
 </body>
 </html>
