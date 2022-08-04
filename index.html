@@ -617,16 +617,16 @@
         })
 
         // Thankyou modal trigger
-        // var postUrl = window.location.href;
-        // var pathArray = postUrl.split("#");
+        var postUrl = window.location.href;
+        var pathArray = postUrl.split("#");
         
-        // if (pathArray[1] == "thankyou") {
-        //     $('#thankyou').modal('show');
-        // } else {
-        //     $(window).on('load', function() {
-        //         $('#video').modal('show');
-        //     });
-        // }
+        if (pathArray[1] == "thankyou") {
+            $('#thankyou').modal('show');
+        } else {
+            $(window).on('load', function() {
+                $('#video').modal('show');
+            });
+        }
 
 
 
