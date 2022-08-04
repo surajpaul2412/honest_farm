@@ -2209,7 +2209,22 @@ Single Blog Page
   transition: all .5s;
 }
 /* Several different images */
-.bg-one {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.png);}
+.bg1 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0000_DeHaat_FOP_Unpolished_Urad_Whole_1kg_260722.webp);}
+.bg2 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0001_DeHaat_FOP_Unpolished_Urad_Kali_1kg_260722.webp);}
+.bg3 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0002_DeHaat_FOP_Unpolished_Urad_Dal_1kg_260722.webp);}
+.bg4 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0003_DeHaat_FOP_Unpolished_Urad_Chilka_1kg_260722.webp);}
+.bg5 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0004_DeHaat_FOP_Unpolished_Toor_Dal_1kg_260722.webp);}
+.bg6 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0005_DeHaat_FOP_Unpolished_Rajma_Kashmiri_1kg_260722.webp);}
+.bg7 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0015_DeHaat_FOP_Raw_Peanuts_1kg_260722.webp);}
+.bg8 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0012_DeHaat_FOP_Unpolished_Chana_Dal_1kg_260722.webp);}
+.bg9 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0014_DeHaat_FOP_Rozana_Basmati_Rice_1kg_260722.webp);}
+.bg10 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0013_DeHaat_FOP_Sona_Masuri_Rice_White_1kg_260722.webp);}
+.bg11 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0011_DeHaat_FOP_Unpolished_Green_Moong_1kg_260722.webp);}
+.bg12 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0006_DeHaat_FOP_Unpolished_Rajma_Chitra_1kg_260722.webp);}
+.bg13 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0007_DeHaat_FOP_Unpolished_Moong_Dal_Chilka_1kg_260722.webp);}
+.bg14 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0008_DeHaat_FOP_Unpolished_Moong_Dal_1kg_260722.webp);}
+.bg15 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0009_DeHaat_FOP_Unpolished_Kala_Chana_1kg_260722.webp);}
+.bg16 {background-image: url(../img/products/HONESR-FARMS-PRODUCTS_0010_DeHaat_FOP_Unpolished_Kabuli_Chana_1kg_260722.webp);}
 .click-btn{
     display: none;
     text-align: center;
