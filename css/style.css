@@ -2246,7 +2246,7 @@ Single Blog Page
   margin: 0 auto;
 }
 .parent:hover .child, .parent:focus .child > .element{
-  /*border:  10px solid transparent;*/
+  border-radius: 10px;
 }
 
 
