@@ -2140,9 +2140,9 @@ Single Blog Page
 #custCarousel .carousel-indicators li:hover img {
     opacity: 0.75;
 }
-.carousel-item img{
+/*.carousel-item img{
     width:50%;
-}
+}*/
 #usp{background-image: url('../img/background.png');background-size: 100%;}
 .img-wrapper {  
   width: 100%;
