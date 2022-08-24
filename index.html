@@ -349,6 +349,85 @@
         </div>
     </section>
 
+    <!-- prod 2 -->
+    <section class="bg-info d-none">
+        <div class="pt-5">
+          <div class="pt-5">
+            <div class="container pt-5" style="z-index: 99999;">
+              <div class="carousel1 pt-5" style="z-index: 99999;">
+                <div class="box">
+                  <p>Text number 2</p>
+                </div>
+
+                <div class="box bg-danger px-4" style="z-index: 999999;">
+                  <img src="img/certify.png" class="d-block mx-auto" width="160px" style="margin-top: -100px;z-index: 99999;">
+                  <div class="row">
+                      <div class="col-6">name</div>
+                      <div class="col-6">arrow</div>
+                  </div>
+                </div>
+                
+                <div class="box">
+                  <p>Another text 3</p>
+
+                </div>
+                <div class="box">
+                  <p>A long long long long text 4</p>
+                </div>
+                <div class="box">
+                  <p>Smaller text 5</p>
+                </div>
+                <div class="box">
+                  <p>txt 6</p>
+                </div>
+                <div class="box">
+                  <p>Text 7</p>
+                </div>
+                <div class="box">
+                  <p>Text number 8</p>
+                </div>
+                <div class="box">
+                  <p>Another text 9</p>
+
+                </div>
+                <div class="box">
+                  <p>A long longer text 10</p>
+                </div>
+                <div class="box">
+                  <p>Smaller text 11</p>
+                </div>
+                <div class="box">
+                  <p>txt 12</p>
+                </div>
+                <div class="box">
+                  <p>Text 13</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <style>
+          .box {
+            float: left;
+            height: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+            border: 2px solid black;
+          }
+          .box > p {
+              padding: 10px;
+              font-size:20px;
+            }
+          .box.box-last {
+            width: 0;
+            margin: 0;
+          }
+        }
+    </style>
+
     <!-- pesticide free certificate’ -->
     <section class="deal pt-5" id="certificate" style="overflow-x: hidden !important;">
         <div class="row">
@@ -700,17 +779,34 @@
         var postUrl = window.location.href;
         var pathArray = postUrl.split("#");
         
-        if (pathArray[1] == "thankyou") {
-            $('#thankyou').modal('show');
-        } else {
-            $(window).on('load', function() {
-                $('#video').modal('show');
-            });
-        }
+        // if (pathArray[1] == "thankyou") {
+        //     $('#thankyou').modal('show');
+        // } else {
+        //     $(window).on('load', function() {
+        //         $('#video').modal('show');
+        //     });
+        // }
 
         $(function () {
           $('[data-toggle="tooltip"]').tooltip()
         })
+    </script>
+
+    <script>
+        $(function() {
+          $('.carousel1').slick({
+            infinite: false,
+            variableWidth: true,
+            slidesToShow: 1,
+            slidesToScroll: 7,
+            swipe: true,
+            // swipeToSlide: true,
+          });
+          
+        $('.carousel1').on('afterChange', function(event, slick, currentSlide, nextSlide){
+          console.log(currentSlide);
+        });
+        });
     </script>
 </body>
 </html>
